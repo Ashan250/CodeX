@@ -62,7 +62,7 @@ const handleSubmit = async(e)=>{
   const messageDiv = document.getElementById(uniqueId);
   loader(messageDiv);
 
-  const response = await fetch('https://codex-fmqy.onrender.com/', {
+  const response = await  fetch('https://codex-fmqy.onrender.com/', {
     method: 'POST',
     
     headers: {
